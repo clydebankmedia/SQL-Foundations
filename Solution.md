@@ -1,4 +1,4 @@
-# Solution Code - SQL 01 Welcome Tour
+# Solution Code - Welcome Tour: Product Catalog
 <details> 
 <summary>Step 1 Solution  - Take your first look</summary>
   
