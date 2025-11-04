@@ -1,7 +1,7 @@
 # Solution Code - SQL 01 Welcome Tour
-
+<details> 
 <summary>Step 1 Solution  - Take your first look</summary>
-<details>   
+  
 ```sql
     SELECT * FROM games LIMIT 5;
     
@@ -12,9 +12,9 @@
     LIMIT 5;
 ```
 </details>
-
+<details>
 <summary>Step 2 Solution - Focus on one detail</summary>
-<details>    
+    
 ```sql
     SELECT title FROM games LIMIT 10;
     
@@ -22,16 +22,16 @@
     SELECT title, genre FROM games LIMIT 10;
 ```
 </details>
-
+<details> 
 <summary>Step 3 Solution - Explore another table</summary>
-<details>   
+  
 ```sql
     SELECT * FROM tournaments LIMIT 5;
 ```
 </details>
-
+<details> 
 <summary>Step 4 Solution - Zoom in with a filter</summary>
-<details>    
+   
 ```sql
     SELECT * FROM tournaments
     WHERE region = 'West'
@@ -43,16 +43,16 @@
     LIMIT 5;   
 ```
 </details>
-
+<details>
 <summary>Step 5 Solution - Look at log data</summary>
-<details>    
+    
 ```sql
     SELECT * FROM error_logs LIMIT 4;
 ```
 </details>
-
+<details>
 <summary>Step 6 Solution - Spot a filtered result</summary>
-<details>    
+    
 ```sql
     SELECT * FROM error_logs
     WHERE error_type = 'StreamOutage'
@@ -64,9 +64,9 @@
     LIMIT 3;
 ```
 </details>
-
+<details> 
 <summary>Step 7 Solution - Explore ticket prices (stretch)</summary>
-<details>   
+  
 ```sql
     -- Sort by most expensive first
     SELECT ticket_id, tournament_id, price_paid
